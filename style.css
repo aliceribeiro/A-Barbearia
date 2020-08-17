@@ -1,0 +1,48 @@
+.principal {
+  background-color: #cccccc;
+  padding: 30px;
+  padding: 1.88rem; 
+}
+
+.titulo-principal {
+  padding-left: 20px;
+}
+
+.titulo-centralizado {
+  text-align: center;
+}
+
+#banner {
+  width: 100%;
+}
+
+p {
+  text-align: center;
+}
+
+/* é assim que se referencia uma id = "#nome_id" (esse é que tá no 2º parágrafo */
+#missao {
+  font-size: 20px;
+  font-size: 1.25rem; /* essa é outra forma, mais responsiva, de ser atribuir um tamanho: target ÷ context = result (20 ÷ 16 = 1.25rem) */
+}
+
+/* é assim que se referencia uma classe = ".nome_classe" */
+.itens {
+  font-style: italic;
+}
+
+.beneficios {
+  background: #FFFFFF;
+  padding: 20px;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.imagembeneficios {
+  width: 50%;
+}
