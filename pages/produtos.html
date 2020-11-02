@@ -5,17 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Produtos - A Barbearia</title>
 
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Source+Sans+Pro:wght@700&family=Source+Serif+Pro&display=swap" rel="stylesheet">
 </head>
   <body>
     <header>
-      <div class="caixa">
-        <h1><img src="logo.png" alt="Logo"></h1>
-
+      <div class="cabecalho">
+        <h1><img src="../assets/icons/logo.svg" alt="Logo A Barbearia"></h1>
+      </div>
+      <div>
         <nav>
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="../index.html">Home</a></li>
             <li><a href="produtos.html">Produtos</a></li>
             <li><a href="contato.html">Contato</a></li>
           </ul>
@@ -25,29 +27,26 @@
 
     <main>
       <ul class="produtos">
-        <li>
-          <h2>Cabelo</h2>
-          <img src="cabelo.jpg" alt="Ilustração cabelo">
+        <li class="card-cabelo">
+          <h2>• Cabelo •</h2>
           <p class="produto-descricao">Na tesoura ou na máquina, como o cliente preferir</p>
-          <p class="produto-preco">R$ 25,00</p>
+          <p class="produto-preco">R$ 30,00</p>
         </li>
-        <li>
-          <h2>Barba</h2>
-          <img src="barba.jpg" alt="Ilustração barba">
+        <li class="card-barba">
+          <h2>• Barba •</h2>
           <p class="produto-descricao">Corte e desenho profissional de barba</p>
           <p class="produto-preco">R$ 18,00</p>
         </li>
-        <li>
-          <h2>Cabelo & Barba</h2>
-          <img src="cabelo+barba.jpg" alt="Ilustração cabelo + barba">
+        <li class="card-combo">
+          <h2>• Combo •</h2>
           <p class="produto-descricao">Pacote completo de cabelo e barba</p>
-          <p class="produto-preco">R$ 35,00</p>
+          <p class="produto-preco">R$ 40,00</p>
         </li>
       </ul>
     </main>
 
     <footer>
-      <img src="logo-branco.png" alt="Logo">
+      <img src="../assets/icons/logo.svg" alt="Logo - A Barbearia">
       <p class="copyright">&copy; Copyright A Barbearia - 2020</p>
     </footer>
   </body>

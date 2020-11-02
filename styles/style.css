@@ -1,0 +1,293 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F2F2F2;
+}
+
+/* PÁGINA HOME */
+header {
+  background: #FFB838;
+  padding: 20px 0;
+  display: flex;
+}
+
+.cabecalho {
+  position: relative;
+  width: 940px;
+  margin: 0 auto; 
+}
+
+nav {
+  position: absolute;
+  right: 0;
+  margin: 2% 10%;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #F2F2F2;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #6E4929;
+  text-decoration: underline;
+}
+
+.banner {
+  width: 100%;
+}
+
+.titulo-principal {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 26px;
+  color: #241D1A;
+  padding-left: 20px;
+}
+
+.titulo-principal {
+  width: 940px;
+  margin: 3% auto; 
+}
+
+.principal p {
+  font-family: 'Source Serif Pro', serif;
+  line-height: 40px;
+  margin: 0 18%;   
+  color: #241D1A;
+  font-size: 18px;
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.mapa {
+  padding: 50px 0;
+}
+
+.mapa-conteudo {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.mapa p {
+  font-family: 'Source Serif Pro', serif;
+  line-height: 40px;
+  margin: 0 18%;   
+  color: #241D1A;
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+.beneficios {
+  padding: 3em 0;
+}
+
+.conteudo-beneficios {
+  width: 930px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.lista-beneficios {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.itens {
+  line-height: 1.5;
+}
+
+
+.itens:first-child {
+  font-weight: bold;
+}
+
+.video {
+  width: 560px;
+  margin: 2em auto;
+}
+
+/* PÁGINA PRODUTOS */
+.produtos {
+  justify-content: center;
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.card-cabelo {
+  /* width: 100%; */
+  border-radius: 10px 10px 0 0;
+  background-image: url(../assets/images/cabelo.jpg);
+  background-repeat: repeat-x;
+}
+
+.card-barba {
+  border-radius: 10px 10px 0 0;
+  background-image: url(../assets/images/barba.jpg);
+  background-repeat: repeat-x;
+}
+
+.card-combo {
+  border-radius: 10px 10px 0 0;
+  background-image: url(../assets/images/cabelo+barba.jpg);
+  background-repeat: repeat-x;
+  align-items: center;
+}
+
+.produtos li:hover img {
+  width: 102%;
+}
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  height: 400px;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #C78C19; 
+  border-radius: 10px;
+  background-color: #FFC04E;
+}
+
+.produtos li:hover {
+  border-color: #C78C19;
+}
+
+.produtos li:active {
+  border-color: #6E4929;
+}
+
+.produtos li:hover h2 {
+  font-size: 28px;
+}
+
+.produtos h2 {
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: bold;
+  color: #FFF2DA;
+  padding-top: 245px;
+}
+
+.produto-descricao {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  padding: 10px 0;
+  color: #FFF2DA;
+}
+
+.produto-preco {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #FFF2DA;
+}
+
+
+/* PÁGINA CONTATO */
+form {
+  margin: 40px 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 20%;
+}
+
+fieldset legend {
+  padding-top: 30px;
+  font-family: 'Archivo Black', sans-serif;
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+form label {
+  font-family: 'Source Serif Pro', serif;
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padrao {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 18px;
+  color: #939393;
+  border-style: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  background-color: #EAEAEA;
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+  border:1px solid #948C89;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.enviar {
+  letter-spacing: 1px;
+  width: 20%;
+  padding: 15px 0;
+  background: #FFB838;
+  color:  white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all; 
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background: #FFAB0B;
+  transform: scale(1.1); 
+}
+
+/* RODAPÉ */
+footer {
+  text-align: center;
+  background-color: #FFAB0B;
+  padding: 40px 0;
+}
+
+.copyright {
+  color: #FFFFFF;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+  .cabecalho, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    width: auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  nav {
+    position: static;
+  }
+
+  .lista-beneficios {
+    width: 100%;
+  }
+}

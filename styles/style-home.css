@@ -3,13 +3,15 @@
 }
 
 .principal {
-  background: #cccccc;
+  background: #F2F2F2;
   padding: 30px;
   /* padding: 1.88rem; essa é outra forma, mais responsiva, de ser atribuir um tamanho: target ÷ context = result (30 ÷ 16 = 1.88rem) */
 }
 
 .titulo-principal {
   padding-left: 20px;
+  font-size: 26px;
+  color: #241D1A;
 }
 
 .titulo-centralizado {
