@@ -4,7 +4,7 @@
 
 O site foi desenvolvido com HTML e CSS puro, possuíndo seções de mapa, vídeo, *cards* e  formulário.
 
-Se você quiser conferir como o *layout* ficou, basta clicar [aqui](https://aliceribeiro.github.io/a-barbearia/pages/contato.html).
+Se você quiser conferir como o *layout* ficou, basta clicar [aqui](https://aliceribeiro.github.io/a-barbearia/index.html).
 
 ---
 Desenvolvido por Alice Ribeiro ✌
